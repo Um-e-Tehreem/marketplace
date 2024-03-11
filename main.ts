@@ -1,4 +1,5 @@
-import { myFirst } from "./second.js";
+console.log("fizza");
+import { myFirst } from "./modules/index.js";
 console.log(myFirst);
 import { myTeacher, mySecondTeacher } from "./second.js";
 console.log(myTeacher, mySecondTeacher);
