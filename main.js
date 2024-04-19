@@ -60,25 +60,66 @@
 // console.log(c);
 // console.log(--c);
 // Home work.
-let e = 3;
-let f = 1;
-let g;
-g = ++e + e++ + --f + f-- + e + f++ + f;
-console.log(g);
-let h = 5;
-let i = 2;
-let j;
-j = ++h + h++ + --i + i-- + h + i++ + i;
-console.log(j);
+// let e: number = 3;
+// let f: number = 1;
+// let g: number;
+// g = ++e + e++ + --f + f-- + e + f++ + f;
+// console.log(g);
+// let h: number = 5;
+// let i: number = 2;
+// let j: number;
+// j = ++h + h++ + --i + i-- + h + i++ + i;
+// console.log(j);
 // Combining Operators, practice.
-let result = 3 + 4 * 4;
-console.log(result);
-let results = 5 + 3 - 8;
-results++;
-console.log(results);
-let value = 2 - 5 + 7;
-console.log(value);
-let values = 3 + 4 * 5;
-values++;
-console.log(values);
+// let result = 3 + 4 * 4;
+// console.log(result);
+// let results = 5 + 3 - 8;
+// results++
+// console.log(results);
+// let value = 2 - 5 + 7;
+// console.log(value);
+// let values = 3 + 4 * 5;
+// values++
+// console.log(values);
+// let eidi : number = 9999;
+// if(eidi == 10000){
+//     console.log("hurraayyyyy");
+// }else{
+//     console.log("ohhhh shit")
+// };
+// let weather: string = "cloudy";
+// if(weather == "Rainy"){
+//     console.log("wear a rain coat");
+// }else if(weather == "cloudy"){
+//     console.log("wear a banniyaan");
+// }else if(weather == "cloudy"){
+//     console.log("wear a chaddi banniyaan");
+// }else{
+//     console.log("wear sunglases");
+// }
+// let myEidii : number = 7500;
+// if(myEidii>= 7500){
+//     console.log("go to tariq road");
+// }else if(myEidii>=5000 && myEidii<7500){
+//     console.log("go to burns road");
+// }else if(myEidii>=2500 &&  myEidii<5000){
+//     console.log("go to rayri");
+// }else{
+//     console.log("soo jao");
+// }
+// function azeemCook(){
+//     let cooked:string = "biryani"
+//     console.log(cooked);
+// }
+// function habibullahCook(){
+//     let cooked : string = "white karahi"
+//     console.log(cooked)
+// }
+//invoke //call.
+// azeemCook();
+// habibullahCook();
+function taskOne() {
+    console.log("Task one done");
+}
+taskOne();
 export {};
