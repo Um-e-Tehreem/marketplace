@@ -167,3 +167,15 @@ function taskOne(){
     console.log("Task one done");
 }
 taskOne()
+
+// string concatention
+let myyName : string = "Ume tehreem";
+let myyLastName : string = " Muhammad jamil ";
+let myyFullName : string = myyName + '' + myyLastName;
+console.log(myyFullName);
+
+// template literals
+let myName : string = "Ume tehreem";
+let myAge : number = 19;
+let myDetails : string = `my name is ${myName} and i am ${myAge} years old`;
+console .log(myDetails);
