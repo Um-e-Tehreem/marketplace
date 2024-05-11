@@ -196,3 +196,9 @@ if(name1 = "tehreem"){
     name2 = "esha"
 }
 console.log(name2);
+
+function coffee(milk:number,
+    sugar:number,coffee:number){
+    return milk + sugar + coffee   
+}
+console.log(coffee(1,1.5,1));
