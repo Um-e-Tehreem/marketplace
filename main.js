@@ -139,3 +139,16 @@ let myName = "Ume tehreem";
 let myAge = 19;
 let myDetails = `my name is ${myName} and i am ${myAge} years old`;
 console.log(myDetails);
+function halfryEgg(egg, butter, salt) {
+    return egg + butter + salt;
+}
+console.log(halfryEgg(1, 1.5, 0.5));
+// Global scope
+var name1 = "tehreem";
+let name2;
+const name3 = "rubab";
+// Block scope
+if (name1 = "tehreem") {
+    name2 = "esha";
+}
+console.log(name2);
