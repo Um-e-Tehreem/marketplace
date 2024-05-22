@@ -156,3 +156,38 @@ function coffee(milk, sugar, coffee) {
     return milk + sugar + coffee;
 }
 console.log(coffee(1, 1.5, 1));
+// Array literals.
+let arr = [1, 'Ali', true];
+console.log(arr.length);
+console.log(arr[1] = 'Bilal');
+let students = [{
+        name: 'Tehreeem',
+        age: 19,
+        isdeveloper: true,
+    },
+    {
+        name: 'Sir Bilal',
+        age: 30,
+        isdeveloper: true
+    }];
+console.log(students[1].age);
+let fruits = ['apple', 'banana', 'orange',
+    'grapes', 'cherry'];
+fruits.push('mango'); // push add karta he last me
+let dropItem = fruits.pop(); // pop last walay ko remove karta he
+fruits.unshift('mango'); // start me add karta he
+let dropsItem = fruits.shift(); // start walay ko remove kaarta he
+let sliceItems = fruits.slice(); // index, lenght 
+fruits.splice(1, 0, 'mango', 'kiwi', 'pineapple'); // delete kar saktay he or add bhi kar saktay he
+console.log(fruits);
+console.log(dropItem);
+console.log(fruits);
+console.log(dropsItem);
+console.log(sliceItems);
+console.log(fruits);
+// multi data types
+let vegetables = [true, 5,
+    "khaas guest"];
+let personalInfo = ['Ali', 123, true];
+let [name, rollNo, onsite] = personalInfo;
+console.log("name:", name, "rollNo:", rollNo, "onsite:", onsite);
