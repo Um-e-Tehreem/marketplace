@@ -191,3 +191,15 @@ let vegetables = [true, 5,
 let personalInfo = ['Ali', 123, true];
 let [name, rollNo, onsite] = personalInfo;
 console.log("name:", name, "rollNo:", rollNo, "onsite:", onsite);
+// any leraning
+let mySirName = "ubaid";
+console.log(mySirName.toUpperCase());
+let age = 5;
+if (typeof age === "number") {
+    console.log(age = 2);
+}
+else {
+    console.log("incorrect data");
+}
+let person = "Ali Aftab";
+console.log(person.toUpperCase());

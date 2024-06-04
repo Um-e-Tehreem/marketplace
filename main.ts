@@ -250,3 +250,19 @@ let personalInfo : personalInfo = ['Ali', 123, true]
 let [name, rollNo, onsite] = personalInfo
 
 console.log("name:",name, "rollNo:",rollNo, "onsite:",onsite)
+
+// any leraning
+
+let mySirName: any = "ubaid"
+console.log(mySirName.toUpperCase());
+
+let age: unknown = 5;
+
+if(typeof age === "number"){
+    console.log(age = 2)
+}else {
+    console.log("incorrect data");
+}
+
+let person: unknown = "Ali Aftab"
+console.log((person as string).toUpperCase());
