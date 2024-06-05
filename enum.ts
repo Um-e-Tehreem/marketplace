@@ -43,12 +43,12 @@ enum REVIEW {
 }
 type Order ={
     order: MENU[],
-    payment: number,
+    payment: number[],
     review:REVIEW
 }
 let shaheerOrder:Order={
     order: [MENU.BEEFROLL,MENU.MAALAIBOTI,MENU.ROLL],
-    payment: 100,
+    payment: [100, 250, 80],
     review: REVIEW.GOOD
 }
 console.log(shaheerOrder);

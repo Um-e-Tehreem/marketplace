@@ -45,7 +45,7 @@ var REVIEW;
 })(REVIEW || (REVIEW = {}));
 let shaheerOrder = {
     order: [MENU.BEEFROLL, MENU.MAALAIBOTI, MENU.ROLL],
-    payment: 100,
+    payment: [100, 250, 80],
     review: REVIEW.GOOD
 };
 console.log(shaheerOrder);
