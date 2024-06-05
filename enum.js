@@ -66,4 +66,28 @@ let user2 = {
 };
 console.log(user1);
 console.log(user2);
+var MENUCARD;
+(function (MENUCARD) {
+    MENUCARD["KEBABFRY"] = "kebabfry";
+    MENUCARD["BIRYANI"] = "biryani";
+    MENUCARD["CHICKENPULAO"] = "chickenpulao";
+    MENUCARD["SHAMIKEBAB"] = "shamikebab";
+    MENUCARD["TIKKA"] = "tikka";
+    MENUCARD["ZINGERBURGER"] = "zingerburger";
+    MENUCARD["FRENCHFRIES"] = "frenchfries";
+    MENUCARD["COLDDRINK"] = "colddrink";
+})(MENUCARD || (MENUCARD = {}));
+var CUSTOMREVIEW;
+(function (CUSTOMREVIEW) {
+    CUSTOMREVIEW[CUSTOMREVIEW["TASTY"] = 0] = "TASTY";
+    CUSTOMREVIEW[CUSTOMREVIEW["YUMMY"] = 1] = "YUMMY";
+    CUSTOMREVIEW[CUSTOMREVIEW["DELECIOUS"] = 2] = "DELECIOUS";
+    CUSTOMREVIEW[CUSTOMREVIEW["NOTGOOD"] = 3] = "NOTGOOD";
+})(CUSTOMREVIEW || (CUSTOMREVIEW = {}));
+let asmaOrder = {
+    order: [MENUCARD.ZINGERBURGER, MENUCARD.FRENCHFRIES, MENUCARD.COLDDRINK],
+    payment: [450, 100, 100],
+    review: [CUSTOMREVIEW.DELECIOUS, CUSTOMREVIEW.YUMMY]
+};
+console.log(asmaOrder);
 export {};

@@ -74,3 +74,31 @@ let user2: loginInfo = {
 }
 console.log(user1);
 console.log(user2);
+
+enum MENUCARD {
+     KEBABFRY= "kebabfry",
+     BIRYANI= "biryani",
+     CHICKENPULAO= "chickenpulao",
+     SHAMIKEBAB= "shamikebab",
+     TIKKA= "tikka",
+     ZINGERBURGER= "zingerburger",
+     FRENCHFRIES= "frenchfries",
+     COLDDRINK= "colddrink",
+}
+enum CUSTOMREVIEW {
+     TASTY,
+     YUMMY,
+     DELECIOUS,
+     NOTGOOD,
+}
+type customOrder = {
+     order: MENUCARD[],
+     payment: number[],
+     review: CUSTOMREVIEW[]
+}
+let asmaOrder: customOrder= {
+    order: [MENUCARD.ZINGERBURGER, MENUCARD.FRENCHFRIES, MENUCARD.COLDDRINK],
+    payment: [450, 100, 100],
+    review: [CUSTOMREVIEW.DELECIOUS, CUSTOMREVIEW.YUMMY]
+}
+console.log(asmaOrder);
