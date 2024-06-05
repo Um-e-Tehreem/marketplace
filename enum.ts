@@ -42,12 +42,12 @@ enum REVIEW {
     DELICIOUE,
 }
 type Order ={
-    order: MENU,
+    order: MENU[],
     payment: number,
     review:REVIEW
 }
 let shaheerOrder:Order={
-    order: MENU.BEEFROLL,
+    order: [MENU.BEEFROLL,MENU.MAALAIBOTI,MENU.ROLL],
     payment: 100,
     review: REVIEW.GOOD
 }

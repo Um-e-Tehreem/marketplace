@@ -44,7 +44,7 @@ var REVIEW;
     REVIEW[REVIEW["DELICIOUE"] = 2] = "DELICIOUE";
 })(REVIEW || (REVIEW = {}));
 let shaheerOrder = {
-    order: MENU.BEEFROLL,
+    order: [MENU.BEEFROLL, MENU.MAALAIBOTI, MENU.ROLL],
     payment: 100,
     review: REVIEW.GOOD
 };
